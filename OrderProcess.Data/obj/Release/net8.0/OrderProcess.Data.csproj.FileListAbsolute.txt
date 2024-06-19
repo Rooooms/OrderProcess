@@ -1,0 +1,17 @@
+C:\Users\RSANDRINO\source\repos\HRIS\OrderProcess.App\OrderProcess.Data\bin\Release\net8.0\OrderProcess.Data.deps.json
+C:\Users\RSANDRINO\source\repos\HRIS\OrderProcess.App\OrderProcess.Data\bin\Release\net8.0\OrderProcess.Data.runtimeconfig.json
+C:\Users\RSANDRINO\source\repos\HRIS\OrderProcess.App\OrderProcess.Data\bin\Release\net8.0\OrderProcess.Data.dll
+C:\Users\RSANDRINO\source\repos\HRIS\OrderProcess.App\OrderProcess.Data\bin\Release\net8.0\OrderProcess.Data.pdb
+C:\Users\RSANDRINO\source\repos\HRIS\OrderProcess.App\OrderProcess.Data\bin\Release\net8.0\OrderProcess.Core.dll
+C:\Users\RSANDRINO\source\repos\HRIS\OrderProcess.App\OrderProcess.Data\bin\Release\net8.0\OrderProcess.Core.pdb
+C:\Users\RSANDRINO\source\repos\HRIS\OrderProcess.App\OrderProcess.Data\obj\Release\net8.0\OrderProcess.Data.csproj.AssemblyReference.cache
+C:\Users\RSANDRINO\source\repos\HRIS\OrderProcess.App\OrderProcess.Data\obj\Release\net8.0\OrderProcess.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RSANDRINO\source\repos\HRIS\OrderProcess.App\OrderProcess.Data\obj\Release\net8.0\OrderProcess.Data.AssemblyInfoInputs.cache
+C:\Users\RSANDRINO\source\repos\HRIS\OrderProcess.App\OrderProcess.Data\obj\Release\net8.0\OrderProcess.Data.AssemblyInfo.cs
+C:\Users\RSANDRINO\source\repos\HRIS\OrderProcess.App\OrderProcess.Data\obj\Release\net8.0\OrderProcess.Data.csproj.CoreCompileInputs.cache
+C:\Users\RSANDRINO\source\repos\HRIS\OrderProcess.App\OrderProcess.Data\obj\Release\net8.0\OrderProcess.Data.csproj.CopyComplete
+C:\Users\RSANDRINO\source\repos\HRIS\OrderProcess.App\OrderProcess.Data\obj\Release\net8.0\OrderProcess.Data.dll
+C:\Users\RSANDRINO\source\repos\HRIS\OrderProcess.App\OrderProcess.Data\obj\Release\net8.0\refint\OrderProcess.Data.dll
+C:\Users\RSANDRINO\source\repos\HRIS\OrderProcess.App\OrderProcess.Data\obj\Release\net8.0\OrderProcess.Data.pdb
+C:\Users\RSANDRINO\source\repos\HRIS\OrderProcess.App\OrderProcess.Data\obj\Release\net8.0\OrderProcess.Data.genruntimeconfig.cache
+C:\Users\RSANDRINO\source\repos\HRIS\OrderProcess.App\OrderProcess.Data\obj\Release\net8.0\ref\OrderProcess.Data.dll
