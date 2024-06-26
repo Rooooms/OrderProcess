@@ -20,6 +20,15 @@ namespace OrderProcess.App.Modules
                 return Results.Ok(order);
             });
 
+            group.MapGet("/po", async (int poNo, IOrderService orderService) => {
+
+                var order = await orderService.GetOrderByPoNo(poNo);
+
+                if (order == null) return Results.NotFound();
+
+                return Results.Ok(order);
+            });
+
 
             group.MapPost("/", async (OrderRequest request, IOrderService orderService) =>
             {

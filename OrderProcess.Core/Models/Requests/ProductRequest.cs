@@ -15,5 +15,7 @@ namespace OrderProcess.Core.Models.Requests
         public string Packing { get; set; }
 
         public double OrderCS { get; set; }
+        public double OrderPC { get; set; }
+        public double BasePrice { get; set; }
     }
 }

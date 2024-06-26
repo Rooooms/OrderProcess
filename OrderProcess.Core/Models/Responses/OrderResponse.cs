@@ -11,7 +11,7 @@ namespace OrderProcess.Core.Models.Responses
     {
         public Guid Id { get; set; }
 
-        public int CustKey { get; set; }
+        public string CustKey { get; set; }
 
         public string CustName { get; set; }
 
@@ -21,16 +21,20 @@ namespace OrderProcess.Core.Models.Responses
 
         public string Remarks { get; set; }
 
-        public int[] ProdNo { get; set; }
+        public int ProdNo { get; set; }
 
         public string ProdDescription { get; set; }
 
         public string Packing { get; set; }
 
-        public double OrderCS { get; set; }
+        public double? OrderCS { get; set; }
 
 
         public Product Products { get; set; }
+
+        public double basePrice { get; set; }
+
+        public double price { get; set; }
 
         public Guid ProductId { get; set; }
 

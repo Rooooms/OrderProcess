@@ -18,5 +18,6 @@ namespace OrderProcess.Core.Interfaces.Services
         Task<ProductResponse> Update(Guid id ,ProductRequest request);
 
         Task<bool> Delete(Guid id);
+        Task<ProductResponse> GetByProdNo(int prodNo);
     }
 }

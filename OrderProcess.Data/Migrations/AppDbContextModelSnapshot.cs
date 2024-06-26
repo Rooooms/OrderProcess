@@ -28,8 +28,9 @@ namespace OrderProcess.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<int>("CustKey")
-                        .HasColumnType("int");
+                    b.Property<string>("CustKey")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("CustName")
                         .IsRequired()
@@ -46,8 +47,9 @@ namespace OrderProcess.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<int>("CustKey")
-                        .HasColumnType("int");
+                    b.Property<string>("CustKey")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("CustName")
                         .IsRequired()
@@ -56,7 +58,7 @@ namespace OrderProcess.Data.Migrations
                     b.Property<Guid>("CustomerId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<double>("OrderCS")
+                    b.Property<double?>("OrderCS")
                         .HasColumnType("float");
 
                     b.Property<string>("Packing")
@@ -67,9 +69,8 @@ namespace OrderProcess.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("ProdNo")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("ProdNo")
+                        .HasColumnType("int");
 
                     b.Property<Guid>("ProductId")
                         .HasColumnType("uniqueidentifier");
@@ -78,11 +79,17 @@ namespace OrderProcess.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<double>("basePrice")
+                        .HasColumnType("float");
+
                     b.Property<DateOnly>("poDate")
                         .HasColumnType("date");
 
                     b.Property<int>("poNo")
                         .HasColumnType("int");
+
+                    b.Property<double>("price")
+                        .HasColumnType("float");
 
                     b.HasKey("Id");
 
@@ -99,7 +106,13 @@ namespace OrderProcess.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<double>("OrderCS")
+                    b.Property<double>("BasePrice")
+                        .HasColumnType("float");
+
+                    b.Property<double?>("OrderCS")
+                        .HasColumnType("float");
+
+                    b.Property<double?>("OrderPC")
                         .HasColumnType("float");
 
                     b.Property<string>("Packing")

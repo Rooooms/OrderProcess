@@ -49,6 +49,7 @@ namespace OrderProcess.Service.Services
             
         }
 
+
         public async Task<List<CustomerResponse>> GetAll()
         {
             var customer = await _customer.GetAll();
@@ -61,6 +62,14 @@ namespace OrderProcess.Service.Services
         public async Task<CustomerResponse> GetById(Guid id)
         {
             var customer = await _customer.GetById(id);
+
+            var customerDto = customer.Adapt<CustomerResponse>();
+            return customerDto;
+        }
+
+        public async Task<CustomerResponse> GetByCustKey(string custkey)
+        {
+            var customer = await _customer.GetByCust(custkey);
 
             var customerDto = customer.Adapt<CustomerResponse>();
             return customerDto;

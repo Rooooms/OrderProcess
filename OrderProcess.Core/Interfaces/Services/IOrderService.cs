@@ -19,5 +19,6 @@ namespace OrderProcess.Core.Interfaces.Services
         //Task<OrderResponse> Update(Guid id, OrderRequest request);
 
         Task<bool> Delete(Guid id);
+        Task<List<OrderResponse>> GetOrderByPoNo(int poNo);
     }
 }

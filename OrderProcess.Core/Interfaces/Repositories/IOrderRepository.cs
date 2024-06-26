@@ -16,7 +16,7 @@ namespace OrderProcess.Core.Interfaces.Repositories
         Task<List<OrderEntities>> GetAll();
 
         Task<OrderEntities> GetById(Guid id);
-
+        Task<List<OrderEntities>> GetBypoNo(int poNo);
         Task<int> SaveChangesAsync();
     }
 }

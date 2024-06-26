@@ -64,6 +64,15 @@ namespace OrderProcess.Service.Services
             return productDto;
         }
 
+        public async Task<ProductResponse> GetByProdNo(int prodNo)
+        {
+            var product = await _product.GetByProdNo(prodNo);
+
+            if (product == null) throw new Exception("No Product Found");
+
+            var productDto = product.Adapt<ProductResponse>();
+            return productDto;
+        }
         public async Task<ProductResponse> Update(Guid id, ProductRequest request)
         {
             var product = await _product.GetById(id);

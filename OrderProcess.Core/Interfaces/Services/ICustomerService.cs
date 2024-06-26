@@ -19,5 +19,6 @@ namespace OrderProcess.Core.Interfaces.Services
         Task<CustomerResponse> Update(Guid id, CustomerRequest request);
 
         Task<bool> Delete(Guid id);
+        Task<CustomerResponse> GetByCustKey(string custkey);
     }
 }

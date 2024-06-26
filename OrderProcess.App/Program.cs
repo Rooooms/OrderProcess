@@ -37,6 +37,7 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.AddCustomerEndpoints();
 app.AddProductEndpoints();
+app.AddOrderEndpoint();
 
 app.Run();
 

@@ -9,7 +9,7 @@ namespace OrderProcess.Core.Models.Requests
 {
     public class OrderRequest
     { 
-        public int CustKey { get; set; }
+        public string CustKey { get; set; }
 
         public string CustName { get; set; }
 
@@ -17,9 +17,15 @@ namespace OrderProcess.Core.Models.Requests
 
         public DateOnly poDate { get; set; }
 
+        public double?[] OrderCS {get; set; }
+
         public string Remarks { get; set; }
 
         public int[] ProdNo { get; set; }
+
+        public double[] basePrice { get; set; }
+
+        public double[] price { get; set; }
 
 
 

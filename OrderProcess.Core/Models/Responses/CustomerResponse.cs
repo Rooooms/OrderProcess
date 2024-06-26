@@ -10,7 +10,7 @@ namespace OrderProcess.Core.Models.Responses
     {
         public Guid Id { get; set; }
 
-        public int CustKey { get; set; }
+        public string CustKey { get; set; }
 
         public string CustName { get; set; }
     }

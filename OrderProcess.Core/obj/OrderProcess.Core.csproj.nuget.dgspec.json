@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\RSANDRINO\\source\\repos\\HRIS\\OrderProcess.App\\OrderProcess.Core\\OrderProcess.Core.csproj": {}
+    "C:\\Users\\LSacramento\\Desktop\\RAM\\OrderProcess\\OrderProcess.Core\\OrderProcess.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\RSANDRINO\\source\\repos\\HRIS\\OrderProcess.App\\OrderProcess.Core\\OrderProcess.Core.csproj": {
+    "C:\\Users\\LSacramento\\Desktop\\RAM\\OrderProcess\\OrderProcess.Core\\OrderProcess.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\RSANDRINO\\source\\repos\\HRIS\\OrderProcess.App\\OrderProcess.Core\\OrderProcess.Core.csproj",
+        "projectUniqueName": "C:\\Users\\LSacramento\\Desktop\\RAM\\OrderProcess\\OrderProcess.Core\\OrderProcess.Core.csproj",
         "projectName": "OrderProcess.Core",
-        "projectPath": "C:\\Users\\RSANDRINO\\source\\repos\\HRIS\\OrderProcess.App\\OrderProcess.Core\\OrderProcess.Core.csproj",
-        "packagesPath": "C:\\Users\\RSANDRINO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\RSANDRINO\\source\\repos\\HRIS\\OrderProcess.App\\OrderProcess.Core\\obj\\",
+        "projectPath": "C:\\Users\\LSacramento\\Desktop\\RAM\\OrderProcess\\OrderProcess.Core\\OrderProcess.Core.csproj",
+        "packagesPath": "C:\\Users\\LSacramento\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\LSacramento\\Desktop\\RAM\\OrderProcess\\OrderProcess.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\RSANDRINO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\LSacramento\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -39,6 +39,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -86,7 +91,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

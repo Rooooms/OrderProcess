@@ -21,7 +21,7 @@ namespace OrderProcess.Data.Repositories
 
         public void Add(List<OrderEntities> order)
         {
-            _context.Orders.AddRange(order);
+            _context.Orders.AddRangeAsync(order);
         }
 
         public void Delete(OrderEntities order)
@@ -37,6 +37,11 @@ namespace OrderProcess.Data.Repositories
         public Task<OrderEntities> GetById(Guid id)
         {
             return _context.Orders.FirstOrDefaultAsync(p=>p.Id == id);
+        }
+
+        public Task<List<OrderEntities>>GetBypoNo(int poNo)
+        {
+            return _context.Orders.Where(p=>p.poNo == poNo).OrderByDescending(p=>p.poDate).ToListAsync();
         }
 
         public Task<int> SaveChangesAsync()

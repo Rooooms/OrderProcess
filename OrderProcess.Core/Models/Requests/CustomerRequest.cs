@@ -9,7 +9,7 @@ namespace OrderProcess.Core.Models.Requests
     public class CustomerRequest
     {
 
-        public int CustKey { get; set; }
+        public string CustKey { get; set; }
 
         public string CustName { get; set; }
     }

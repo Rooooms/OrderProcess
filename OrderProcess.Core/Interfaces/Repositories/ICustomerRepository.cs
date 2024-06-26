@@ -18,5 +18,6 @@ namespace OrderProcess.Core.Interfaces.Repositories
 
         public Task<int> SaveChangesAysnc();
         Task<Customer> GetByCustKey(string custName);
+        Task<Customer> GetByCust(string custName);
     }
 }

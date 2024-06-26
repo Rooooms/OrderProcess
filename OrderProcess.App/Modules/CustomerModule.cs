@@ -20,6 +20,15 @@ namespace OrderProcess.App.Modules
                 return Results.Ok(customer);
             });
 
+            group.MapGet("/custkey", async (string custkey, ICustomerService customerService) => {
+
+                var customer = await customerService.GetByCustKey(custkey);
+
+                if (customer == null) return Results.NotFound();
+
+                return Results.Ok(customer);
+            });
+
 
             group.MapPost("/", async (CustomerRequest request, ICustomerService customerService) =>
             {

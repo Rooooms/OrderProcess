@@ -20,6 +20,15 @@ namespace OrderProcess.App.Modules
                 return Results.Ok(product);
             });
 
+            group.MapGet("/prodno", async (int prodno, IProductService productService) => {
+
+                var product = await productService.GetByProdNo(prodno);
+
+                if (product == null) return Results.NotFound();
+
+                return Results.Ok(product);
+            });
+
 
             group.MapPost("/", async (ProductRequest request, IProductService productService) =>
             {

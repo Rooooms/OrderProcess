@@ -42,6 +42,10 @@ namespace OrderProcess.Data.Repositories
         {
             return _context.Customers.FirstOrDefaultAsync(p=>p.CustName == custName);
         }
+        public Task<Customer> GetByCust(string custName)
+        {
+            return _context.Customers.FirstOrDefaultAsync(p => p.CustKey == custName);
+        }
 
         public Task<int> SaveChangesAysnc()
         {
