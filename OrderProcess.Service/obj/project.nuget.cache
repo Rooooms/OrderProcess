@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< Updated upstream
   "dgSpecHash": "rEqQRCPm+bA=",
   "success": true,
   "projectFilePath": "C:\\Users\\LSacramento\\Desktop\\RAM\\OrderProcess\\OrderProcess.Service\\OrderProcess.Service.csproj",
+=======
+  "dgSpecHash": "oXhLfDRYpPZEt8fz6EIVjiMi6IyWs8spmvF12hL5WftPc2HbRtkNLhb+mLymyQVb96PHmM/+o0d8O0EDD8F8Sw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\RSANDRINO\\Documents\\GitHub\\OrderProcess\\OrderProcess.Service\\OrderProcess.Service.csproj",
+>>>>>>> Stashed changes
   "expectedPackageFiles": [
     "C:\\Users\\LSacramento\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\LSacramento\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

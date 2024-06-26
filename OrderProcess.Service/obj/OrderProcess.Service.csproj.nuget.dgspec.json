@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< Updated upstream
     "C:\\Users\\LSacramento\\Desktop\\RAM\\OrderProcess\\OrderProcess.Service\\OrderProcess.Service.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "C:\\Users\\LSacramento\\Desktop\\RAM\\OrderProcess\\OrderProcess.Core\\OrderProcess.Core.csproj",
         "packagesPath": "C:\\Users\\LSacramento\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\LSacramento\\Desktop\\RAM\\OrderProcess\\OrderProcess.Core\\obj\\",
+=======
+    "C:\\Users\\RSANDRINO\\Documents\\GitHub\\OrderProcess\\OrderProcess.Service\\OrderProcess.Service.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\RSANDRINO\\Documents\\GitHub\\OrderProcess\\OrderProcess.Core\\OrderProcess.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\RSANDRINO\\Documents\\GitHub\\OrderProcess\\OrderProcess.Core\\OrderProcess.Core.csproj",
+        "projectName": "OrderProcess.Core",
+        "projectPath": "C:\\Users\\RSANDRINO\\Documents\\GitHub\\OrderProcess\\OrderProcess.Core\\OrderProcess.Core.csproj",
+        "packagesPath": "C:\\Users\\RSANDRINO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\RSANDRINO\\Documents\\GitHub\\OrderProcess\\OrderProcess.Core\\obj\\",
+>>>>>>> Stashed changes
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -95,6 +109,7 @@
         }
       }
     },
+<<<<<<< Updated upstream
     "C:\\Users\\LSacramento\\Desktop\\RAM\\OrderProcess\\OrderProcess.Data\\OrderProcess.Data.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -103,6 +118,16 @@
         "projectPath": "C:\\Users\\LSacramento\\Desktop\\RAM\\OrderProcess\\OrderProcess.Data\\OrderProcess.Data.csproj",
         "packagesPath": "C:\\Users\\LSacramento\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\LSacramento\\Desktop\\RAM\\OrderProcess\\OrderProcess.Data\\obj\\",
+=======
+    "C:\\Users\\RSANDRINO\\Documents\\GitHub\\OrderProcess\\OrderProcess.Data\\OrderProcess.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\RSANDRINO\\Documents\\GitHub\\OrderProcess\\OrderProcess.Data\\OrderProcess.Data.csproj",
+        "projectName": "OrderProcess.Data",
+        "projectPath": "C:\\Users\\RSANDRINO\\Documents\\GitHub\\OrderProcess\\OrderProcess.Data\\OrderProcess.Data.csproj",
+        "packagesPath": "C:\\Users\\RSANDRINO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\RSANDRINO\\Documents\\GitHub\\OrderProcess\\OrderProcess.Data\\obj\\",
+>>>>>>> Stashed changes
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -124,8 +149,13 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+<<<<<<< Updated upstream
               "C:\\Users\\LSacramento\\Desktop\\RAM\\OrderProcess\\OrderProcess.Core\\OrderProcess.Core.csproj": {
                 "projectPath": "C:\\Users\\LSacramento\\Desktop\\RAM\\OrderProcess\\OrderProcess.Core\\OrderProcess.Core.csproj"
+=======
+              "C:\\Users\\RSANDRINO\\Documents\\GitHub\\OrderProcess\\OrderProcess.Core\\OrderProcess.Core.csproj": {
+                "projectPath": "C:\\Users\\RSANDRINO\\Documents\\GitHub\\OrderProcess\\OrderProcess.Core\\OrderProcess.Core.csproj"
+>>>>>>> Stashed changes
               }
             }
           }
@@ -190,6 +220,7 @@
         }
       }
     },
+<<<<<<< Updated upstream
     "C:\\Users\\LSacramento\\Desktop\\RAM\\OrderProcess\\OrderProcess.Service\\OrderProcess.Service.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -198,6 +229,16 @@
         "projectPath": "C:\\Users\\LSacramento\\Desktop\\RAM\\OrderProcess\\OrderProcess.Service\\OrderProcess.Service.csproj",
         "packagesPath": "C:\\Users\\LSacramento\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\LSacramento\\Desktop\\RAM\\OrderProcess\\OrderProcess.Service\\obj\\",
+=======
+    "C:\\Users\\RSANDRINO\\Documents\\GitHub\\OrderProcess\\OrderProcess.Service\\OrderProcess.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\RSANDRINO\\Documents\\GitHub\\OrderProcess\\OrderProcess.Service\\OrderProcess.Service.csproj",
+        "projectName": "OrderProcess.Service",
+        "projectPath": "C:\\Users\\RSANDRINO\\Documents\\GitHub\\OrderProcess\\OrderProcess.Service\\OrderProcess.Service.csproj",
+        "packagesPath": "C:\\Users\\RSANDRINO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\RSANDRINO\\Documents\\GitHub\\OrderProcess\\OrderProcess.Service\\obj\\",
+>>>>>>> Stashed changes
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -219,11 +260,19 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+<<<<<<< Updated upstream
               "C:\\Users\\LSacramento\\Desktop\\RAM\\OrderProcess\\OrderProcess.Core\\OrderProcess.Core.csproj": {
                 "projectPath": "C:\\Users\\LSacramento\\Desktop\\RAM\\OrderProcess\\OrderProcess.Core\\OrderProcess.Core.csproj"
               },
               "C:\\Users\\LSacramento\\Desktop\\RAM\\OrderProcess\\OrderProcess.Data\\OrderProcess.Data.csproj": {
                 "projectPath": "C:\\Users\\LSacramento\\Desktop\\RAM\\OrderProcess\\OrderProcess.Data\\OrderProcess.Data.csproj"
+=======
+              "C:\\Users\\RSANDRINO\\Documents\\GitHub\\OrderProcess\\OrderProcess.Core\\OrderProcess.Core.csproj": {
+                "projectPath": "C:\\Users\\RSANDRINO\\Documents\\GitHub\\OrderProcess\\OrderProcess.Core\\OrderProcess.Core.csproj"
+              },
+              "C:\\Users\\RSANDRINO\\Documents\\GitHub\\OrderProcess\\OrderProcess.Data\\OrderProcess.Data.csproj": {
+                "projectPath": "C:\\Users\\RSANDRINO\\Documents\\GitHub\\OrderProcess\\OrderProcess.Data\\OrderProcess.Data.csproj"
+>>>>>>> Stashed changes
               }
             }
           }

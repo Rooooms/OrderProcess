@@ -4184,11 +4184,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< Updated upstream
       "projectUniqueName": "C:\\Users\\LSacramento\\Desktop\\RAM\\OrderProcess\\OrderProcess.Data\\OrderProcess.Data.csproj",
       "projectName": "OrderProcess.Data",
       "projectPath": "C:\\Users\\LSacramento\\Desktop\\RAM\\OrderProcess\\OrderProcess.Data\\OrderProcess.Data.csproj",
       "packagesPath": "C:\\Users\\LSacramento\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\LSacramento\\Desktop\\RAM\\OrderProcess\\OrderProcess.Data\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\RSANDRINO\\Documents\\GitHub\\OrderProcess\\OrderProcess.Data\\OrderProcess.Data.csproj",
+      "projectName": "OrderProcess.Data",
+      "projectPath": "C:\\Users\\RSANDRINO\\Documents\\GitHub\\OrderProcess\\OrderProcess.Data\\OrderProcess.Data.csproj",
+      "packagesPath": "C:\\Users\\RSANDRINO\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\RSANDRINO\\Documents\\GitHub\\OrderProcess\\OrderProcess.Data\\obj\\",
+>>>>>>> Stashed changes
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4210,8 +4218,13 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+<<<<<<< Updated upstream
             "C:\\Users\\LSacramento\\Desktop\\RAM\\OrderProcess\\OrderProcess.Core\\OrderProcess.Core.csproj": {
               "projectPath": "C:\\Users\\LSacramento\\Desktop\\RAM\\OrderProcess\\OrderProcess.Core\\OrderProcess.Core.csproj"
+=======
+            "C:\\Users\\RSANDRINO\\Documents\\GitHub\\OrderProcess\\OrderProcess.Core\\OrderProcess.Core.csproj": {
+              "projectPath": "C:\\Users\\RSANDRINO\\Documents\\GitHub\\OrderProcess\\OrderProcess.Core\\OrderProcess.Core.csproj"
+>>>>>>> Stashed changes
             }
           }
         }
