@@ -13,5 +13,19 @@ namespace OrderProcess.Core.Entities
         public string CustKey { get; set; }
 
         public string CustName { get; set; }
+
+        public string ChainCode { get; set; }
+
+        public string DeliveryAddress { get; set; }
+
+        public string Whseno { get; set; }
+
+        public string Term { get; set; }
+
+        public string HardTerm { get; set; }
+
+        public string CreditLimit { get; set; }
+
+        public string HardLimit { get; set; }
     }
 }
