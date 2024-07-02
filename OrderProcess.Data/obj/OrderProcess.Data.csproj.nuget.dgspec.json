@@ -1,37 +1,23 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< Updated upstream
-    "C:\\Users\\LSacramento\\Desktop\\RAM\\OrderProcess\\OrderProcess.Data\\OrderProcess.Data.csproj": {}
+    "C:\\Users\\JBANTUGAN\\source\\repos\\OrderProcesses\\OrderProcess.Data\\OrderProcess.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LSacramento\\Desktop\\RAM\\OrderProcess\\OrderProcess.Core\\OrderProcess.Core.csproj": {
+    "C:\\Users\\JBANTUGAN\\source\\repos\\OrderProcesses\\OrderProcess.Core\\OrderProcess.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LSacramento\\Desktop\\RAM\\OrderProcess\\OrderProcess.Core\\OrderProcess.Core.csproj",
+        "projectUniqueName": "C:\\Users\\JBANTUGAN\\source\\repos\\OrderProcesses\\OrderProcess.Core\\OrderProcess.Core.csproj",
         "projectName": "OrderProcess.Core",
-        "projectPath": "C:\\Users\\LSacramento\\Desktop\\RAM\\OrderProcess\\OrderProcess.Core\\OrderProcess.Core.csproj",
-        "packagesPath": "C:\\Users\\LSacramento\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LSacramento\\Desktop\\RAM\\OrderProcess\\OrderProcess.Core\\obj\\",
-=======
-    "C:\\Users\\RSANDRINO\\Documents\\GitHub\\OrderProcess\\OrderProcess.Data\\OrderProcess.Data.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\RSANDRINO\\Documents\\GitHub\\OrderProcess\\OrderProcess.Core\\OrderProcess.Core.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\RSANDRINO\\Documents\\GitHub\\OrderProcess\\OrderProcess.Core\\OrderProcess.Core.csproj",
-        "projectName": "OrderProcess.Core",
-        "projectPath": "C:\\Users\\RSANDRINO\\Documents\\GitHub\\OrderProcess\\OrderProcess.Core\\OrderProcess.Core.csproj",
-        "packagesPath": "C:\\Users\\RSANDRINO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\RSANDRINO\\Documents\\GitHub\\OrderProcess\\OrderProcess.Core\\obj\\",
->>>>>>> Stashed changes
+        "projectPath": "C:\\Users\\JBANTUGAN\\source\\repos\\OrderProcesses\\OrderProcess.Core\\OrderProcess.Core.csproj",
+        "packagesPath": "C:\\Users\\JBANTUGAN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JBANTUGAN\\source\\repos\\OrderProcesses\\OrderProcess.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\LSacramento\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\JBANTUGAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -53,11 +39,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -105,35 +86,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-<<<<<<< Updated upstream
-    "C:\\Users\\LSacramento\\Desktop\\RAM\\OrderProcess\\OrderProcess.Data\\OrderProcess.Data.csproj": {
+    "C:\\Users\\JBANTUGAN\\source\\repos\\OrderProcesses\\OrderProcess.Data\\OrderProcess.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LSacramento\\Desktop\\RAM\\OrderProcess\\OrderProcess.Data\\OrderProcess.Data.csproj",
+        "projectUniqueName": "C:\\Users\\JBANTUGAN\\source\\repos\\OrderProcesses\\OrderProcess.Data\\OrderProcess.Data.csproj",
         "projectName": "OrderProcess.Data",
-        "projectPath": "C:\\Users\\LSacramento\\Desktop\\RAM\\OrderProcess\\OrderProcess.Data\\OrderProcess.Data.csproj",
-        "packagesPath": "C:\\Users\\LSacramento\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LSacramento\\Desktop\\RAM\\OrderProcess\\OrderProcess.Data\\obj\\",
-=======
-    "C:\\Users\\RSANDRINO\\Documents\\GitHub\\OrderProcess\\OrderProcess.Data\\OrderProcess.Data.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\RSANDRINO\\Documents\\GitHub\\OrderProcess\\OrderProcess.Data\\OrderProcess.Data.csproj",
-        "projectName": "OrderProcess.Data",
-        "projectPath": "C:\\Users\\RSANDRINO\\Documents\\GitHub\\OrderProcess\\OrderProcess.Data\\OrderProcess.Data.csproj",
-        "packagesPath": "C:\\Users\\RSANDRINO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\RSANDRINO\\Documents\\GitHub\\OrderProcess\\OrderProcess.Data\\obj\\",
->>>>>>> Stashed changes
+        "projectPath": "C:\\Users\\JBANTUGAN\\source\\repos\\OrderProcesses\\OrderProcess.Data\\OrderProcess.Data.csproj",
+        "packagesPath": "C:\\Users\\JBANTUGAN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JBANTUGAN\\source\\repos\\OrderProcesses\\OrderProcess.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\LSacramento\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\JBANTUGAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -149,13 +119,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-<<<<<<< Updated upstream
-              "C:\\Users\\LSacramento\\Desktop\\RAM\\OrderProcess\\OrderProcess.Core\\OrderProcess.Core.csproj": {
-                "projectPath": "C:\\Users\\LSacramento\\Desktop\\RAM\\OrderProcess\\OrderProcess.Core\\OrderProcess.Core.csproj"
-=======
-              "C:\\Users\\RSANDRINO\\Documents\\GitHub\\OrderProcess\\OrderProcess.Core\\OrderProcess.Core.csproj": {
-                "projectPath": "C:\\Users\\RSANDRINO\\Documents\\GitHub\\OrderProcess\\OrderProcess.Core\\OrderProcess.Core.csproj"
->>>>>>> Stashed changes
+              "C:\\Users\\JBANTUGAN\\source\\repos\\OrderProcesses\\OrderProcess.Core\\OrderProcess.Core.csproj": {
+                "projectPath": "C:\\Users\\JBANTUGAN\\source\\repos\\OrderProcesses\\OrderProcess.Core\\OrderProcess.Core.csproj"
               }
             }
           }
@@ -164,11 +129,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -216,7 +176,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
