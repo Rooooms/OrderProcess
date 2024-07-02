@@ -16,6 +16,7 @@ namespace OrderProcess.Service
             services.AddTransient<ICustomerService, CustomerService>();
             services.AddTransient<IProductService, ProductService>();
             services.AddTransient<IOrderService, OrderService>();
+            services.AddTransient<ICustomerDetailsService, CustomerDetailsService>();
             return services;
         }
     }
