@@ -22,6 +22,27 @@ namespace OrderProcess.Data.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("OrderProcess.Core.Entities.Category", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<int>("CategoryCode")
+                        .HasColumnType("int");
+
+                    b.Property<string>("CategoryName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("groupno")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Categories");
+                });
+
             modelBuilder.Entity("OrderProcess.Core.Entities.Customer", b =>
                 {
                     b.Property<Guid>("Id")
@@ -129,6 +150,64 @@ namespace OrderProcess.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Products");
+                });
+
+            modelBuilder.Entity("OrderProcess.Core.Entities.Products", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<double>("TaxRate")
+                        .HasColumnType("float");
+
+                    b.Property<double>("basePrice")
+                        .HasColumnType("float");
+
+                    b.Property<DateOnly>("basePriceEffDate")
+                        .HasColumnType("date");
+
+                    b.Property<int>("catcode")
+                        .HasColumnType("int");
+
+                    b.Property<string>("category")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<double>("pricewtax")
+                        .HasColumnType("float");
+
+                    b.Property<string>("proddesc")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("prodno")
+                        .HasColumnType("int");
+
+                    b.Property<double>("unitcost")
+                        .HasColumnType("float");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("RamProduct");
+                });
+
+            modelBuilder.Entity("OrderProcess.Core.Entities.categorygroup", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("groupdesc")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("groupno")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("CategoryGroups");
                 });
 
             modelBuilder.Entity("OrderProcess.Core.Entities.OrderEntities", b =>

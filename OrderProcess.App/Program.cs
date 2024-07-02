@@ -38,6 +38,9 @@ app.UseHttpsRedirection();
 app.AddCustomerEndpoints();
 app.AddProductEndpoints();
 app.AddOrderEndpoint();
+app.AddCategoryGroupEndpoint();
+app.AddCategoryEndpoint();
+app.AddProductsEndpoint();
 
 app.Run();
 

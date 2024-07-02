@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace OrderProcess.Core.Entities
 {
+
+    //For testing ginagamit ni laurence
     public class Product
     {
         public Guid Id { get; set; }
