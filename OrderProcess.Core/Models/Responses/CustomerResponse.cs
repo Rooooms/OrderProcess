@@ -19,6 +19,7 @@ namespace OrderProcess.Core.Models.Responses
         public string DeliveryAddress { get; set; }
 
         public string Whseno { get; set; }
+        public int salesman { get; set; }
 
         public string Term { get; set; }
 

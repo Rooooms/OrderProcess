@@ -15,6 +15,7 @@ namespace OrderProcess.Core.Entities
         public string CustName { get; set; }
 
         public string ChainCode { get; set; }
+        public int salesman { get; set; }
 
         public string DeliveryAddress { get; set; }
 

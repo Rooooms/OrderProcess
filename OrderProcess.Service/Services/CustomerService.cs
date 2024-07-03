@@ -15,14 +15,20 @@ namespace OrderProcess.Service.Services
     public class CustomerService : ICustomerService
     {
         private readonly ICustomerRepository _customer;
+        private readonly ISalesmanRepository _salesman;
 
-        public CustomerService(ICustomerRepository customer)
+        public CustomerService(ICustomerRepository customer, ISalesmanRepository salesman)
         {
             _customer = customer;
+            _salesman = salesman;
         }
 
         public async Task<CustomerResponse> Create(CustomerRequest request)
         {
+            var salesman = await _salesman.GetById(request.salesman);
+
+            if (salesman == null) throw new Exception("No Salesman Found");
+
             var customer = request.Adapt<Customer>();
 
             _customer.Add(customer);
@@ -81,7 +87,12 @@ namespace OrderProcess.Service.Services
 
             if (customer == null) throw new Exception("No Customer Found");
 
+
             request.Adapt(customer);
+
+            var salesman = await _salesman.GetById(customer.salesman);
+
+            if (salesman == null) throw new Exception("No Salesman Found");
 
             await _customer.SaveChangesAysnc();
 

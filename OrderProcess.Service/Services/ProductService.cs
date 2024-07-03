@@ -15,6 +15,7 @@ namespace OrderProcess.Service.Services
     public class ProductService : IProductService
     {
         private readonly IProductRepository _product;
+    
         public ProductService(IProductRepository product)
         {
             _product = product;
@@ -22,6 +23,9 @@ namespace OrderProcess.Service.Services
 
         public async Task<ProductResponse> Create(ProductRequest request)
         {
+
+
+
             var product = request.Adapt<Product>();
 
             _product.Add(product);

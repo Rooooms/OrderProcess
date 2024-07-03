@@ -76,4 +76,4 @@ C:\Users\RSANDRINO\Documents\GitHub\OrderProcess\OrderProcess.Service\obj\Debug\
 C:\Users\RSANDRINO\Documents\GitHub\OrderProcess\OrderProcess.Service\obj\Debug\net8.0\OrderProcess.Service.pdb
 C:\Users\RSANDRINO\Documents\GitHub\OrderProcess\OrderProcess.Service\obj\Debug\net8.0\OrderProcess.Service.genruntimeconfig.cache
 C:\Users\RSANDRINO\Documents\GitHub\OrderProcess\OrderProcess.Service\obj\Debug\net8.0\ref\OrderProcess.Service.dll
-C:\Users\RSANDRINO\Documents\GitHub\OrderProcess\OrderProcess.Service\obj\Debug\net8.0\OrderPro.864C5356.Up2Date
+C:\Users\RSANDRINO\Documents\GitHub\OrderProcess\OrderProcess.Service\obj\Debug\net8.0\OrderProcess.Service.csproj.CopyComplete
