@@ -16,6 +16,7 @@ namespace OrderProcess.Core.Models.Requests
         public string ChainCode { get; set; }
 
         public string DeliveryAddress { get; set; }
+        public int salesman { get; set; }
 
         public string Whseno { get; set; }
 
