@@ -42,6 +42,8 @@ app.AddCategoryGroupEndpoint();
 app.AddCategoryEndpoint();
 app.AddProductsEndpoint();
 app.AddDealCodeModule();
+app.AddCustomerScopeEndpoint();
+app.AddProductScopeEndpoint();
 
 app.Run();
 

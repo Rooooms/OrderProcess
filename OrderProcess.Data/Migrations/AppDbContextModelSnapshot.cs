@@ -85,9 +85,134 @@ namespace OrderProcess.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("salesman")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
                     b.ToTable("Customers");
+                });
+
+            modelBuilder.Entity("OrderProcess.Core.Entities.DealCodes", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<double>("Amount")
+                        .HasColumnType("float");
+
+                    b.Property<string>("DealDesc")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateOnly>("DealEnd")
+                        .HasColumnType("date");
+
+                    b.Property<DateOnly>("DealStart")
+                        .HasColumnType("date");
+
+                    b.Property<int>("Dealcode")
+                        .HasColumnType("int");
+
+                    b.Property<string>("DlTyoe")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("branch")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("dealType")
+                        .HasColumnType("int");
+
+                    b.Property<int>("dealno")
+                        .HasColumnType("int");
+
+                    b.Property<int>("freegoods")
+                        .HasColumnType("int");
+
+                    b.Property<int>("minimumQty")
+                        .HasColumnType("int");
+
+                    b.Property<double>("rate")
+                        .HasColumnType("float");
+
+                    b.Property<int>("whseno")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("DealCodes");
+                });
+
+            modelBuilder.Entity("OrderProcess.Core.Entities.DealCustomerScope", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("CustomerScopeJson")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("DealCode")
+                        .HasColumnType("int");
+
+                    b.Property<string>("DealDesc")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("DealCodeCustomerScope");
+                });
+
+            modelBuilder.Entity("OrderProcess.Core.Entities.DealProductScope", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<int>("DealCode")
+                        .HasColumnType("int");
+
+                    b.Property<string>("DealDesc")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ProductScopeJson")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("ProductScope");
+                });
+
+            modelBuilder.Entity("OrderProcess.Core.Entities.DealcodeMaster", b =>
+                {
+                    b.Property<string>("dldesc")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("dltype")
+                        .HasColumnType("int");
+
+                    b.Property<int>("type")
+                        .HasColumnType("int");
+
+                    b.Property<string>("typedesc")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.ToTable((string)null);
+
+                    b.ToView("dealtype", (string)null);
                 });
 
             modelBuilder.Entity("OrderProcess.Core.Entities.OrderEntities", b =>
@@ -218,6 +343,137 @@ namespace OrderProcess.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("RamProduct");
+                });
+
+            modelBuilder.Entity("OrderProcess.Core.Entities.Salesman", b =>
+                {
+                    b.Property<bool>("activecs")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("area1")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("area2")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("branch")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("category")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ckey")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("csman")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("custkey")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("cycle")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("dcode")
+                        .HasColumnType("int");
+
+                    b.Property<int>("desig")
+                        .HasColumnType("int");
+
+                    b.Property<string>("desigabb")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("desigdesc")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("district")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("dsignation")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("empno")
+                        .HasColumnType("int");
+
+                    b.Property<int>("empvisor")
+                        .HasColumnType("int");
+
+                    b.Property<string>("fname")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("incid")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("lastdate")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("lname")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("nickname")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("plate_no")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("salesman")
+                        .HasColumnType("int");
+
+                    b.Property<string>("smancode")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("smanname")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("sono")
+                        .HasColumnType("int");
+
+                    b.Property<string>("statdesc")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("subd")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("supervisor")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("username")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("whseno")
+                        .HasColumnType("int");
+
+                    b.ToTable((string)null);
+
+                    b.ToView("salesman", (string)null);
                 });
 
             modelBuilder.Entity("OrderProcess.Core.Entities.categorygroup", b =>

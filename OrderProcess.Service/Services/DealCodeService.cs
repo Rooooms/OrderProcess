@@ -25,7 +25,7 @@ namespace OrderProcess.Service.Services
 
         public async Task<DealCodeResponse> Create(DealCodeRequest request)
         {
-            var existingDeal = await _dealcodeMaster.GetByDealDesc(request.DealDesc);
+            var existingDeal = await _dealcodeMaster.GetByDealType(request.dealno);
 
             if (existingDeal == null) throw new Exception("Deal not existing");
 
@@ -61,6 +61,7 @@ namespace OrderProcess.Service.Services
             }
 
             deal.Status = "APPROVED";
+            deal.DlTyoe = existingDeal.dldesc;
 
             _dealcode.Add(deal);
 

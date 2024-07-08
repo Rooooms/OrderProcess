@@ -29,6 +29,10 @@ namespace OrderProcess.Data
         public DbSet<Products>RamProduct {  get; set; }
 
         public DbSet<DealCodes> DealCodes { get; set; }
+
+        public DbSet<DealCustomerScope> DealCodeCustomerScope { get; set; }
+
+        public DbSet<DealProductScope> ProductScope { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);

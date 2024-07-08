@@ -580,6 +580,7 @@ C:\Users\RSANDRINO\Documents\GitHub\OrderProcess\OrderProcess.App\obj\Debug\net8
 C:\Users\RSANDRINO\Documents\GitHub\OrderProcess\OrderProcess.App\obj\Debug\net8.0\OrderProcess.App.pdb
 C:\Users\RSANDRINO\Documents\GitHub\OrderProcess\OrderProcess.App\obj\Debug\net8.0\OrderProcess.App.genruntimeconfig.cache
 C:\Users\RSANDRINO\Documents\GitHub\OrderProcess\OrderProcess.App\obj\Debug\net8.0\ref\OrderProcess.App.dll
+C:\Users\RSANDRINO\Documents\GitHub\OrderProcess\OrderProcess.App\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\RSANDRINO\Documents\GitHub\OrderProcess\OrderProcess.App\obj\Debug\net8.0\OrderProcess.App.csproj.CopyComplete
 C:\Users\LSacramento\source\repos\OrderProcess\OrderProcess.App\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\LSacramento\source\repos\OrderProcess\OrderProcess.App\bin\Debug\net8.0\appsettings.json

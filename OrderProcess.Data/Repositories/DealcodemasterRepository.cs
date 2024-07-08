@@ -22,5 +22,11 @@ namespace OrderProcess.Data.Repositories
         {
             return _context.Set<DealcodeMaster>().FirstOrDefaultAsync(p=>p.dldesc == dealdesc);
         }
+        public Task<DealcodeMaster> GetByDealType(int dealType)
+        {
+            return _context.Set<DealcodeMaster>().FirstOrDefaultAsync(p => p.dltype == dealType);
+        }
+
+
     }
 }

@@ -37,6 +37,11 @@ namespace OrderProcess.Data.Repositories
         {
             return _context.DealCodes.FirstOrDefaultAsync(p=>p.DealDesc == desc);
         }
+        public Task<DealCodes> GetByDealcode(int dealcode)
+        {
+            return _context.DealCodes.FirstOrDefaultAsync(p => p.Dealcode == dealcode);
+        }
+
 
         public Task<DealCodes> GetById(Guid id)
         {

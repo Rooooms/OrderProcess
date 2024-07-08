@@ -10,5 +10,6 @@ namespace OrderProcess.Core.Interfaces.Repositories
     public interface IDealcodeMasterRepository
     {
         Task<DealcodeMaster> GetByDealDesc(string dealdesc);
+        Task<DealcodeMaster> GetByDealType(int dealType);
     }
 }
