@@ -26,6 +26,9 @@ namespace OrderProcess.Data
             services.AddScoped<IProductsRepository, ProductsRepository>();
             services.AddScoped<IDealcodeMasterRepository, DealcodemasterRepository>();
             services.AddScoped<IDealCodeRepository, DealCodeRepository>();
+            services.AddScoped<ISalesmanRepository, SalesmanRepository>();
+            services.AddScoped<ICustomerScopeRepository, CategoryScopeRepository>();
+            services.AddScoped<IProductScopeRepository, ProductScopeRepository>();
             return services;
         }
     }

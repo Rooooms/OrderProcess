@@ -20,5 +20,6 @@ namespace OrderProcess.Core.Interfaces.Repositories
         void Delete (DealCodes dealcodes);
 
         Task<int> SaveChangesAsync();
+        Task<DealCodes> GetByDealcode(int dealcode);
     }
 }

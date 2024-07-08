@@ -12,7 +12,8 @@ namespace OrderProcess.Core.Models.Requests
         public int Dealcode { get; set; }
 
         public string DealDesc { get; set; }
-
+        public int dealno { get; set; }
+       
         public int whseno { get; set; }
 
         public string branch { get; set; }
