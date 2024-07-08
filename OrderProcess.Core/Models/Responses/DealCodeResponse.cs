@@ -15,6 +15,7 @@ namespace OrderProcess.Core.Models.Responses
 
         public string DealDesc { get; set; }
 
+        public string DlTyoe { get; set; }
         public int whseno { get; set; }
 
         public string branch { get; set; }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "T9rpn3KqTNhuolXKs5RUeZkunS5vJ3nw6B7eAMs1NF+k3V7DUFo72eIVugRgg2gQTlqFF/7bLEJedcz2jzk2XQ==",
+  "dgSpecHash": "RASkQHZMK5xAWAu/J35ggxo60cSr6FUigV2RuidaZUfe68ZxmCgJChWNin8rmdRy8IUOfNKgf4A24zCSUET6Pw==",
   "success": true,
   "projectFilePath": "C:\\Users\\RSANDRINO\\Documents\\GitHub\\OrderProcess\\OrderProcess.App\\OrderProcess.App.csproj",
   "expectedPackageFiles": [
@@ -51,6 +51,7 @@
     "C:\\Users\\RSANDRINO\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\RSANDRINO\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\RSANDRINO\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\RSANDRINO\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\RSANDRINO\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\RSANDRINO\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\RSANDRINO\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
