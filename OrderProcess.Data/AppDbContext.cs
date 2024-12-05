@@ -20,6 +20,8 @@ namespace OrderProcess.Data
         public DbSet<Product> Products { get; set; }
 
         public DbSet<OrderEntities> Orders { get; set; }
+
+        public DbSet<CustomerDetails> Details { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
